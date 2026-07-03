@@ -16,7 +16,7 @@ let info={
 console.log(info);
 //destructure the  city and lat from laocation object above
 
-let{city}= info.address;
-let {lat}=info.address.codrinates;
+let{city}= info?.address;
+let {lat}=info?.address?.codrinates;
 console.log(city);
 console.log(lat);
