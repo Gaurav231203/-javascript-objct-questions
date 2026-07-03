@@ -7,7 +7,8 @@ let learn ={
     duration: "4 weeks",
 
 }
-Object.entries(learn).forEach(function(val){
-    console.log(val[0] +":"+ val[1]);
+Object.entries(learn).forEach(function(key ,values){
+    console.log(key +":"+ values);//new way // another way Object.entries(learn).forEach(function(val) {
+    //console.log(val[0] + ":" + val[1]);
+});
     
- })
