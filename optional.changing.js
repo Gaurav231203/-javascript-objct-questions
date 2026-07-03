@@ -14,4 +14,4 @@ let info={
         
     },
 };
-console.log(info.addrss?.codrinates);
+console.log(info?.addrss?.codrinates);
