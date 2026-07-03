@@ -1,0 +1,1 @@
+let {lat}=info.address.codrinates.lat;
